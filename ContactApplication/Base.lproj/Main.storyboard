@@ -116,7 +116,7 @@
                                             </textField>
                                         </subviews>
                                     </stackView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eba-jm-JSC">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eba-jm-JSC" colorLabel="IBBuiltInLabel-Red">
                                         <rect key="frame" x="0.0" y="126" width="377" height="573"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idb-ig-zL1">
@@ -149,6 +149,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jMc-Xf-fue"/>
                     <connections>
+                        <outlet property="emailTextField" destination="AcC-Jb-Gpk" id="4Xk-bw-ZJa"/>
                         <outlet property="firstNameTextField" destination="KoQ-Hf-2ch" id="Yq1-Ht-F7C"/>
                         <outlet property="lastNameTextField" destination="li1-ie-igM" id="Lj2-zk-n10"/>
                         <outlet property="phoneNumberTextField" destination="tIk-XT-erJ" id="J4n-l9-naw"/>

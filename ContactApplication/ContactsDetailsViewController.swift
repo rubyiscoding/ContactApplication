@@ -14,7 +14,9 @@ class ContactsDetailsViewController: UIViewController {
     
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
-    @IBOutlet weak var emailTextField: UITextField!
+   @IBOutlet weak var emailTextField: UITextField!
+    
+    
     
     var contacts: Contacts!
     var contactsList: ContactsList!
@@ -42,6 +44,7 @@ class ContactsDetailsViewController: UIViewController {
             contacts.firstName = firstNameTextField.text ?? ""
             contacts.lastName = lastNameTextField.text ?? ""
             contacts.phoneNumber = phoneNumberTextField.text ?? ""
+            contacts.email = emailTextField.text ?? ""
         
         }else{
             if firstNameTextField.text != "" || lastNameTextField.text != ""{
